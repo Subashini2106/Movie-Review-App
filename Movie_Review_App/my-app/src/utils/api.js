@@ -1,4 +1,6 @@
-const BASE = '/api';
+const BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+REACT_APP_API_URL='https://your-render-url.onrender.com/api';
+
 export const IMG_BASE = 'https://image.tmdb.org/t/p';
 
 // ─── Movies (TMDB Proxy) ──────────────────────────────────────────────────────

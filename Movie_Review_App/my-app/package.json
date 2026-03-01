@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Subashini2106.github.io/Movie-Review-App",
+  "homepage": ".",
   
   "dependencies": {
     "react": "^18.2.0",

@@ -42,7 +42,7 @@ export default function Navbar() {
         <nav className="hidden sm:flex gap-6 flex-shrink-0">
           <Link to="/" className={linkClass('/')}>Home</Link>
           <Link to="/top-rated" className={linkClass('/top-rated')}>Top Rated</Link>
-          <Link to="/my-reviews" className={linkClass('/my-reviews')}>My Reviews</Link>
+          <Link to="/my-reviews" className={linkClass('/my-reviews')}>Reviews</Link>
         </nav>
         <form
           onSubmit={handleSearch}
